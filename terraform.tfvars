@@ -9,7 +9,7 @@ kubeadm_vm_nodes = {
         memory      = "2048",
         disk_pool   = "default",
         disk_size   = "50000000000",
-        mac         = "52:54:00:11:11:00",
+        mac         = "52:54:00:11:12:00",
     },
     "worker-node01" = {
         name        = "node01",
@@ -17,6 +17,6 @@ kubeadm_vm_nodes = {
         memory      = "2048",
         disk_pool   = "default",
         disk_size   = "50000000000",
-        mac         = "52:54:00:11:11:01",
+        mac         = "52:54:00:11:12:01",
     },
 }
