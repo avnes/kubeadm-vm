@@ -4,7 +4,7 @@ kubeadm_vm_cloud_image_name     = "CentOS-Stream-GenericCloud-8-20210603.0.x86_6
 
 kubeadm_vm_nodes = {
     "ctrl-node"     = {
-        name        = "controlplane",
+        name        = "kubeadm-ctrl01",
         vcpu        = 1,
         memory      = "2048",
         disk_pool   = "default",
@@ -12,7 +12,7 @@ kubeadm_vm_nodes = {
         mac         = "52:54:00:11:12:00",
     },
     "worker-node01" = {
-        name        = "node01",
+        name        = "kubeadm-node01",
         vcpu        = 1,
         memory      = "2048",
         disk_pool   = "default",
