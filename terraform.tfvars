@@ -1,5 +1,4 @@
 kubeadm_vm_project_name         = "kubeadm"
-kubeadm_vm_cloud_image_base_url = "https://cloud.centos.org/centos/8-stream/x86_64/images"
 
 kubeadm_vm_nodes = {
     "ctrl-node"     = {
