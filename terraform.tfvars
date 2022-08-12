@@ -1,6 +1,5 @@
 project_name = "kubeadm"
 network_name = "bridged-network"
-domain_name  = "localdomain"
 
 nodes = {
     "ctrl-node"     = {
