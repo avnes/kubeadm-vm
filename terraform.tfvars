@@ -1,4 +1,5 @@
-kubeadm_vm_project_name         = "kubeadm"
+kubeadm_vm_project_name = "kubeadm"
+network_name            = "bridged-network"
 
 kubeadm_vm_nodes = {
     "ctrl-node"     = {
