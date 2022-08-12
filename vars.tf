@@ -1,23 +1,23 @@
-variable "kubeadm_vm_project_name" {
-    type = string
-    default = null
-    description = "The project name is used for grouping the VMs"
+variable "project_name" {
+  type        = string
+  default     = null
+  description = "The project name is used for grouping the VMs to use the same SSH key pair"
 }
 
-variable "kubeadm_vm_cloud_image_base_url" {
-    type = string
-    default = null
-    description = "The base URL for the cloud image files"
+variable "domain_name" {
+  type        = string
+  default     = "localdomain"
+  description = "The DNS domain name to use"
 }
 
-variable "kubeadm_vm_cloud_image_name" {
-    type = string
-    default = null
-    description = "The cloud image file filename"
+variable "network_name" {
+  type        = string
+  default     = "default"
+  description = "The name of the libvirt network"
 }
 
-variable "kubeadm_vm_nodes" {
-    type = map
-    default = {}
-    description = "A map of maps with server details."
+variable "nodes" {
+  type        = map(any)
+  default     = {}
+  description = "A map of maps with server details."
 }

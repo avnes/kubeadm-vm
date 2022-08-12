@@ -1,7 +1,8 @@
-kubeadm_vm_project_name = "kubeadm"
-network_name            = "bridged-network"
+project_name = "kubeadm"
+network_name = "bridged-network"
+domain_name  = "localdomain"
 
-kubeadm_vm_nodes = {
+nodes = {
     "ctrl-node"     = {
         name        = "kubeadm-controlplane01",
         vcpu        = 1,
