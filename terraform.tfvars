@@ -2,7 +2,7 @@ kubeadm_vm_project_name         = "kubeadm"
 
 kubeadm_vm_nodes = {
     "ctrl-node"     = {
-        name        = "kubeadm-ctrl01",
+        name        = "kubeadm-controlplane01",
         vcpu        = 1,
         memory      = "2048",
         disk_pool   = "default",
