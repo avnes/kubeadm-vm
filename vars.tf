@@ -21,3 +21,9 @@ variable "nodes" {
   default     = {}
   description = "A map of maps with server details."
 }
+
+variable "custom_cmd" {
+  type        = string
+  default     = "curl https://raw.githubusercontent.com/avnes/freehold/main/vm-dns-override.sh | bash"
+  description = "Run one custom runcmd in cloud-init"
+}
