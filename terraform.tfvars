@@ -3,7 +3,7 @@ network_name = "bridged-network"
 
 nodes = {
     "ctrl-node"     = {
-        name        = "kubeadm-controlplane01",
+        name        = "kubeadm-controlplane",
         vcpu        = 1,
         memory      = "2048",
         disk_pool   = "default",
