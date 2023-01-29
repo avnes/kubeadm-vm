@@ -24,6 +24,6 @@ variable "nodes" {
 
 variable "custom_cmd" {
   type        = string
-  default     = "curl https://raw.githubusercontent.com/avnes/freehold/main/vm-dns-override.sh | bash"
+  default     = "curl https://raw.githubusercontent.com/avnes/asgard/main/vm-dns-override.sh | bash"
   description = "Run one custom runcmd in cloud-init"
 }
